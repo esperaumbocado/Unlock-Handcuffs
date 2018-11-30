@@ -14,7 +14,7 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 -----------Desenvolvido por Rui Borges.
 -----------Protegido por uma licença de direitos autorais
 
-ESX.RegisterUsableItem('Wire Cutter', function(source)
+ESX.RegisterUsableItem('wire_cutter', function(source)
 
 	TriggerClientEvent('esx_handcuffs:unlockingcuffs', source)
 end)
